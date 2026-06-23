@@ -5,7 +5,7 @@ body{
 
 }
 .todolist{
-  min-width: 500px;
+  width: 500px;
   min-height: 300px;
   text-align: center;
   margin-top: 100px;
@@ -28,6 +28,7 @@ body{
   padding: 0;
 }
 .todolist li{
+  width: 95%;
   text-align: start;
   color: white;
   display: flex;
@@ -41,6 +42,14 @@ body{
 }
 .todolist li span{
   flex: 1;
+  min-width: 0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+.todolist li span::-webkit-scrollbar{
+  display: none;
 }
 .todolist button{
   font-size: 1rem;
