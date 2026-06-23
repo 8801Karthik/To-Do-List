@@ -1,0 +1,80 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 10%);
+
+}
+.todolist{
+  min-width: 500px;
+  min-height: 300px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.todolist h1{
+  font-size: 4rem;
+  color: white;
+}
+.todolist input[type="text"]{
+  font-size:0.9rem;
+  padding: 4px;
+  border: 2px solid hsla(0, 0%, 0%, 0.6);
+  border-radius: 5px;
+}
+.todolist ol{
+  list-style-type: none;
+  padding: 0;
+}
+.todolist li{
+  text-align: start;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 5px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  margin: 5px;
+}
+.todolist li span{
+  flex: 1;
+}
+.todolist button{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 6px;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  margin: 3px;
+}
+.add-btn{
+  background-color: hsl(125, 50%, 45%);
+}
+.add-btn:hover{
+  background-color: hsl(125, 50%, 35%);
+}
+.delete-btn{
+  background-color: hsl(0, 90%, 50%);
+}
+.delete-btn:hover{
+  background-color: hsl(0, 90%, 40%);
+}
+.done-btn{
+  background-color: hsl(220, 87%, 50%);
+}
+.done-btn:hover{
+  background-color: hsl(220, 87%, 40%);
+}
+.completed-tasks li{
+  background-color: hsl(120, 50%, 45%);
+}
+.hint{
+  color: gray;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
