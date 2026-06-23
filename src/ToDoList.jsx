@@ -60,7 +60,7 @@ function ToDoList(){
     return (
         <div className="todolist">
             <h1>To-Do-List</h1>
-            <input type="text" onChange={handleInputChange} value={newTask} placeholder="Enter a Task" id="taskinput" onKeyDown={handleKeyDown}/>
+            <input type="text" onChange={handleInputChange} value={newTask} placeholder="Enter a Task" id="taskinput" onKeyDown={handleKeyDown} autoFocus/>
             <button onClick={addTask} className="add-btn">ADD</button>
             <ol>
                 {tasks.map((task,index)=>

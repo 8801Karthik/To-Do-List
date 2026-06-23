@@ -5,6 +5,7 @@ body{
 
 }
 .todolist{
+  width: 90%;
   min-width: 500px;
   min-height: 300px;
   text-align: center;

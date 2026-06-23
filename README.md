@@ -6,7 +6,7 @@ A modern Todo List application built using **React** and **Vite**, featuring tas
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://to-do-list-sigma-wine-38.vercel.app/
 
 ---
 
@@ -24,7 +24,7 @@ A modern Todo List application built using **React** and **Vite**, featuring tas
 
 ## 🛠️ Tech Stack
 
-- React (Hooks: useState)
+- React
 - Vite
 - JavaScript (ES6+)
 - CSS
@@ -36,7 +36,7 @@ A modern Todo List application built using **React** and **Vite**, featuring tas
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/todo-list.git
+git clone https://github.com/8801Karthik/To-Do-List.git
 cd todo-list
 npm install
 npm run dev
